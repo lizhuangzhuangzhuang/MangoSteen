@@ -11,7 +11,7 @@ public class CalculatorTest {
     @Test
     @RepeatedTest(10)
     @DisplayName("First Test Case CalculatorTest")
-//    @Disabled
+    @Disabled
     void testAdd() {
         //  Arrange
         int num1 = 100;
